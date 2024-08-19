@@ -3,7 +3,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 #explore{
     margin-bottom: 40px;
@@ -39,7 +39,15 @@
     margin: 20px 10px 0px 10px;
 }
 .button1{
-    margin-right: 100px;
+  text-align: center;
+    /* margin-right: 100px; */
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    background-color:blue ;
+    color: white;
+    font-weight: 600;
+    
 }
 .section1{
     text-align: center;
@@ -64,6 +72,7 @@
 .footer a {
     color: #000;
     padding: 10px;
+    
   }
   .gallery {
     flex-basis: 50%;
@@ -117,3 +126,19 @@ background-size: cover;
     background-size: cover;
     grid-column: 2/4;
   }
+  .container5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  @media(max-width:760px){
+    .gallery{
+      display: inline;
+    }
+    .ithems{
+      display: flex;
+      flex-wrap:wrap ;
+      height: 10%;
+      width: 100%;
+    }
+}
